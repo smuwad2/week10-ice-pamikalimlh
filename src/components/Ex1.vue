@@ -1,12 +1,15 @@
 <script>
     //import component
-    
+    import SoundIcon from './subcomponents/SoundIcon.vue';
     export default { 
+        components: {
+            SoundIcon
+        },
         data() {
             return {
                 soundLevel: 0
             }
-        }
+        } 
     }
 </script>
 

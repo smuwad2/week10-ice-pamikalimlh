@@ -7,7 +7,8 @@
         },
         // TODO: add code to define a necessary prop
         props:{
-            level: Number
+            level: Number,
+            required: true
         }
     }
 </script>
